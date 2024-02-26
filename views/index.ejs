@@ -9,6 +9,26 @@
 
 <body>
     <h1>Oi Mundo</h1>
+
+    <form action="/pesquisar" method="get">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" required id="" placeholder="Digite seu nome."><br>
+        <lable for="idade">Idade</lable>
+        <input type="number" name="idade" id="idade" max="99" min="0" placeholder="Digite sua idade"><br>
+        <lable for="data">Data de Nascimento</lable>
+        <input type="date" name="data" id="data"><br>
+        <input type="color" name="cor" id="cor"><br>
+        <input type="email" name="email" id="email" placeholder="Digite seu email"><br>
+        <label for="interesse">Futebol</label>
+        <input type="checkbox" name="interese" id="interesse" value="futebol">
+        <label for="interesse">Voleibol</label>
+        <input type="checkbox" name="interese" id="interesse" value="volei">
+        <label for="interesse">Handebol</label>
+        <input type="checkbox" name="interese" id="interesse" value="handebol">
+        <label for="interesse">Corrida</label>
+        <input type="checkbox" name="interese" id="interesse" value="corrida">
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 
 </html>
