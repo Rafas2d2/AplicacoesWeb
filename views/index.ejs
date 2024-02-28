@@ -18,15 +18,32 @@
         <lable for="data">Data de Nascimento</lable>
         <input type="date" name="data" id="data"><br>
         <input type="color" name="cor" id="cor"><br>
+        <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="Digite seu email"><br>
-        <label for="interesse">Futebol</label>
-        <input type="checkbox" name="interese" id="interesse" value="futebol">
-        <label for="interesse">Voleibol</label>
-        <input type="checkbox" name="interese" id="interesse" value="volei">
-        <label for="interesse">Handebol</label>
-        <input type="checkbox" name="interese" id="interesse" value="handebol">
-        <label for="interesse">Corrida</label>
-        <input type="checkbox" name="interese" id="interesse" value="corrida">
+        <fieldset>
+            <legend>Interesses </legend>
+            <label for="interesse">Futebol</label>
+            <input type="checkbox" name="interese" id="interesse" value="futebol">
+            <label for="interesse">Voleibol</label>
+            <input type="checkbox" name="interese" id="interesse" value="volei">
+            <label for="interesse">Handebol</label>
+            <input type="checkbox" name="interese" id="interesse" value="handebol">
+            <label for="interesse">Corrida</label>
+            <input type="checkbox" name="interese" id="interesse" value="corrida">
+        </fieldset>
+        <label for="cidade">Cidade</label>
+        <select name="cidade" id="cidade">
+            <optgroup label="Região da Campanha">
+                <option value="Bagé">Bagé</option>
+                <option value="Hulha Negra">Hulha Negra</option>
+                <option value="Aceguá">Aceguá</option>
+                <option value="Candiota">Candiota</option>
+            </optgroup>
+            <optgroup label="Região Metropolitana">
+                <option value="Porto Alegre">Porto Alegre</option>
+                <option value="Canoas">Canoas</option>
+            </optgroup>
+        </select>
         <input type="submit" value="Enviar">
     </form>
 </body>
